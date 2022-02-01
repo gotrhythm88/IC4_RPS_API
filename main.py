@@ -7,6 +7,7 @@ app = FastAPI()
 origins = [
     "https://codepen.io/",
     "https://cdpn.io",
+    "https://codingtamasin.000webhostapp.com"
 ]
 
 app.add_middleware(
